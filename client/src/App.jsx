@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // <-- BrowserRouter ki jagah HashRouter
 import ScrollToTop from './components/ScrollToTop';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Home from './pages/HeroBento'; // Yahan HeroBento ko Home ki tarah import kiya hai
+import Home from './pages/HeroBento';
 import Services from './pages/Services';
 import Solutions from './pages/Solutions';
 import Work from './pages/Work';
